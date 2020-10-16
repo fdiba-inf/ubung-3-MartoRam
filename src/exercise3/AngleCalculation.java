@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class AngleCalculation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int val= input.nextInt();
         char method=input.next().charAt(0);
+
 
         if(method!='d'&&method!='r')
         {
@@ -13,7 +15,7 @@ public class AngleCalculation {
             return;
         }
 
-        int val= input.nextInt();
+
         while (method=='d'||method=='r')
         {
 
@@ -31,8 +33,9 @@ public class AngleCalculation {
                 break;
             }
 
-            method=input.next().charAt(0);
+
             val= input.nextInt();
+            method=input.next().charAt(0);
 
         }
 
