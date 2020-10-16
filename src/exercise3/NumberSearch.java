@@ -16,7 +16,7 @@ public class NumberSearch {
 
 
                 {
-                    System.out.println(i+" ");
+                    System.out.println(i);
 
                 }
                 else
